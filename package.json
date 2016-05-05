@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha --no-colors"
+    "test": "mocha --no-colors",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "messaging"
@@ -22,8 +23,12 @@
     "url-pattern": "^1.0.1"
   },
   "dependencies": {
+    "bcrypt": "^0.8.6",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "mongoose": "^4.4.13"
+    "mongoose": "^4.4.13",
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
   }
 }
